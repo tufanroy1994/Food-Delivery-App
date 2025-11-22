@@ -6,7 +6,12 @@ import {
 } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import { LoadingScreen, WelcomeScreen } from '../screens';
+import {
+  IntroScreen,
+  LoadingScreen,
+  LoginScreen,
+  WelcomeScreen,
+} from '../screens';
 import { AppColors, navigationRef } from '../utils';
 import { RootStackParamList } from './types/RootStackTypes';
 
@@ -30,6 +35,8 @@ const AppNavigation = () => {
       >
         <Stack.Screen name="LoadingScreen" component={LoadingScreen} />
         <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+        <Stack.Screen name="IntroScreen" component={IntroScreen} />
+        <Stack.Screen name="LoginScreen" component={LoginScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

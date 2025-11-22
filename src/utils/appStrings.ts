@@ -4,4 +4,7 @@ export const AppStrings = {
   version: 'Version 2.1.0',
   as_fast_as_lightning: 'As fast as lightning',
   as_delicious_as_thunder: 'as delicious as thunder!',
+
+  // Welcome Screen
+  welcome_to: 'Welcome to',
 };

@@ -13,12 +13,17 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  image: {
+    height: wp(30),
+    width: wp(55),
+    marginTop: hp(15),
+  },
   headerText: {
     color: AppColors.WHITE_TEXT,
     fontFamily: FontFamily.Roboto,
     fontSize: FontSizes.FONT_SIZE_20,
     fontWeight: '900',
-    paddingTop: hp(30),
+    paddingTop: hp(5),
   },
   mediumText: {
     color: AppColors.WHITE_TEXT,
@@ -35,12 +40,27 @@ export const styles = StyleSheet.create({
     fontFamily: FontFamily.Roboto,
     fontSize: FontSizes.FONT_SIZE_11,
     fontWeight: '600',
-    paddingTop: hp(50),
+    paddingTop: hp(45),
   },
   bottomText2: {
     color: AppColors.WHITE_TEXT,
     fontFamily: FontFamily.Roboto,
     fontSize: FontSizes.FONT_SIZE_11,
     fontWeight: '600',
+  },
+  loader: {
+    width: wp(60),
+    height: hp(0.5),
+    borderWidth: 1,
+    borderColor: AppColors.WHITE_TEXT,
+    marginTop: wp(5),
+    overflow: 'hidden', // important for smooth fill effect
+    backgroundColor: AppColors.WHITE_TEXT,
+    borderRadius: wp(2),
+  },
+  loaderFill: {
+    height: '100%',
+    backgroundColor: AppColors.LOADER,
+    borderRadius: wp(2),
   },
 });

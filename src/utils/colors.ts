@@ -4,5 +4,7 @@ export const AppColors = {
 
   WHITE_TEXT: '#FFFFFF',
 
+  LOADER: '#57595B',
+
   TRANSPARENT: 'transparent',
 };
